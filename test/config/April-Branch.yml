@@ -1,0 +1,88 @@
+---
+type: cloudgenix template
+version: 1.0
+# Created at 2022-08-07T09:01:43.722304Z
+# by system_2372@jeanlouis.prisma.sase
+sites v4.5:
+  April-Branch:
+    address:
+      city: Lyon
+      country: France
+      post_code: '69003'
+      state: "Rh\xF4ne"
+      street: 114 Boulevard Vivier-Merle
+      street2:
+    admin_state: disabled
+    description:
+    element_cluster_role: SPOKE
+    elements v2.3: {}
+    extended_tags:
+    location:
+      description:
+      latitude: 45.75253
+      longitude: 4.859418
+    nat_policysetstack_id: Default-NATPolicySetStack
+    network_policysetstack_id: BranchStackv4_OVH (Simple)
+    policy_set_id:
+    priority_policysetstack_id: Default QoS Simple Stack (Simple)
+    security_policyset_id:
+    service_binding: Region-WEST
+    tags:
+    waninterfaces v2.6:
+      Circuit to MPLS:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: MPLS
+        link_bw_down: 30.0
+        link_bw_up: 10.0
+        lqm_config:
+        lqm_enabled: true
+        network_id: MPLS
+        network_type: privatewan
+        tags:
+        type: privatewan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:
+      Circuit to OBS:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: Ethernet Internet
+        link_bw_down: 30.0
+        link_bw_up: 10.0
+        lqm_config:
+          hub_site_ids:
+          inter_packet_gap: 100
+          statistic: min
+        lqm_enabled: true
+        network_id: OBS
+        network_type: publicwan
+        tags:
+        type: publicwan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:
+      Circuit to SFR:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: Internet Cable
+        link_bw_down: 30.0
+        link_bw_up: 10.0
+        lqm_config:
+        lqm_enabled: true
+        network_id: SFR
+        network_type: publicwan
+        tags:
+        type: publicwan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:

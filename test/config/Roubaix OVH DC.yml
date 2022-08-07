@@ -1,0 +1,557 @@
+---
+type: cloudgenix template
+version: 1.0
+# Created at 2022-08-07T09:01:51.096524Z
+# by system_2372@jeanlouis.prisma.sase
+sites v4.5:
+  Roubaix OVH DC:
+    address:
+      city: Roubaix
+      country: France
+      post_code: '59100'
+      state: Nord
+      street:
+      street2:
+    admin_state: active
+    description:
+    element_cluster_role: HUB
+    elements v2.3:
+      DC-OVH:
+        admin_action:
+        admin_renew_state:
+        allowed_roles:
+        - HUB
+        - SPOKE
+        cluster_insertion_mode: auto
+        cluster_member_id:
+        connected: false
+        deployment_op:
+        description:
+        element_security_zones v2.0: []
+        interfaces v4.9:
+          '1':
+            admin_up: true
+            attached_lan_networks:
+            bound_interfaces:
+            bypass_pair:
+            description: LANDC
+            devicemgmt_policysetstack_id:
+            dhcp_relay:
+            directed_broadcast: false
+            ethernet_port:
+              full_duplex: false
+              speed: 0
+            ipv4_config:
+              dhcp_config:
+              dns_v4_config:
+              routes:
+              static_config:
+                address: 192.168.100.254/24
+              type: static
+            mac_address:
+            mtu: 1500
+            nat_address:
+            nat_pools:
+            nat_port: 0
+            nat_zone_id:
+            network_context_id:
+            parent:
+            pppoe_config:
+            scope: local
+            service_link_config:
+            site_wan_interface_ids:
+            sub_interface:
+            tags:
+            type: port
+            used_for: private
+          '2':
+            admin_up: true
+            attached_lan_networks:
+            bound_interfaces:
+            bypass_pair:
+            description: ''
+            devicemgmt_policysetstack_id:
+            dhcp_relay:
+            directed_broadcast: false
+            ethernet_port:
+              full_duplex: false
+              speed: 0
+            ipv4_config:
+              dhcp_config:
+              dns_v4_config:
+                name_servers:
+                - 8.8.8.8
+                - 8.8.4.4
+              routes:
+              - destination: 0.0.0.0/0
+                via: 162.19.6.254
+              static_config:
+                address: 162.19.6.56/24
+              type: static
+            mac_address:
+            mtu: 1500
+            nat_address:
+            nat_pools:
+            nat_port: 0
+            nat_zone_id:
+            network_context_id:
+            parent:
+            pppoe_config:
+            scope: local
+            service_link_config:
+            site_wan_interface_ids:
+            - INTERNET-OVH
+            sub_interface:
+            tags:
+            type: port
+            used_for: public
+          '3':
+            admin_up: false
+            attached_lan_networks:
+            bound_interfaces:
+            bypass_pair:
+            description: ''
+            devicemgmt_policysetstack_id:
+            dhcp_relay:
+            directed_broadcast: false
+            ethernet_port:
+              full_duplex: false
+              speed: 0
+            ipv4_config:
+            mac_address:
+            mtu: 1500
+            nat_address:
+            nat_pools:
+            nat_port: 0
+            nat_zone_id:
+            network_context_id:
+            parent:
+            pppoe_config:
+            scope: local
+            service_link_config:
+            site_wan_interface_ids:
+            sub_interface:
+            tags:
+            type: port
+            used_for: none
+          '4':
+            admin_up: false
+            attached_lan_networks:
+            bound_interfaces:
+            bypass_pair:
+            description: ''
+            devicemgmt_policysetstack_id:
+            dhcp_relay:
+            directed_broadcast: false
+            ethernet_port:
+              full_duplex: false
+              speed: 0
+            ipv4_config:
+            mac_address:
+            mtu: 1500
+            nat_address:
+            nat_pools:
+            nat_port: 0
+            nat_zone_id:
+            network_context_id:
+            parent:
+            pppoe_config:
+            scope: local
+            service_link_config:
+            site_wan_interface_ids:
+            sub_interface:
+            tags:
+            type: port
+            used_for: none
+          '5':
+            admin_up: false
+            attached_lan_networks:
+            bound_interfaces:
+            bypass_pair:
+            description: ''
+            devicemgmt_policysetstack_id:
+            dhcp_relay:
+            directed_broadcast: false
+            ethernet_port:
+              full_duplex: false
+              speed: 0
+            ipv4_config:
+            mac_address:
+            mtu: 1500
+            nat_address:
+            nat_pools:
+            nat_port: 0
+            nat_zone_id:
+            network_context_id:
+            parent:
+            pppoe_config:
+            scope: local
+            service_link_config:
+            site_wan_interface_ids:
+            sub_interface:
+            tags:
+            type: port
+            used_for: none
+          '6':
+            admin_up: false
+            attached_lan_networks:
+            bound_interfaces:
+            bypass_pair:
+            description: ''
+            devicemgmt_policysetstack_id:
+            dhcp_relay:
+            directed_broadcast: false
+            ethernet_port:
+              full_duplex: false
+              speed: 0
+            ipv4_config:
+            mac_address:
+            mtu: 1500
+            nat_address:
+            nat_pools:
+            nat_port: 0
+            nat_zone_id:
+            network_context_id:
+            parent:
+            pppoe_config:
+            scope: local
+            service_link_config:
+            site_wan_interface_ids:
+            sub_interface:
+            tags:
+            type: port
+            used_for: none
+          '7':
+            admin_up: false
+            attached_lan_networks:
+            bound_interfaces:
+            bypass_pair:
+            description: ''
+            devicemgmt_policysetstack_id:
+            dhcp_relay:
+            directed_broadcast: false
+            ethernet_port:
+              full_duplex: false
+              speed: 0
+            ipv4_config:
+            mac_address:
+            mtu: 1500
+            nat_address:
+            nat_pools:
+            nat_port: 0
+            nat_zone_id:
+            network_context_id:
+            parent:
+            pppoe_config:
+            scope: local
+            service_link_config:
+            site_wan_interface_ids:
+            sub_interface:
+            tags:
+            type: port
+            used_for: none
+          '8':
+            admin_up: false
+            attached_lan_networks:
+            bound_interfaces:
+            bypass_pair:
+            description: ''
+            devicemgmt_policysetstack_id:
+            dhcp_relay:
+            directed_broadcast: false
+            ethernet_port:
+              full_duplex: false
+              speed: 0
+            ipv4_config:
+            mac_address:
+            mtu: 1500
+            nat_address:
+            nat_pools:
+            nat_port: 0
+            nat_zone_id:
+            network_context_id:
+            parent:
+            pppoe_config:
+            scope: local
+            service_link_config:
+            site_wan_interface_ids:
+            sub_interface:
+            tags:
+            type: port
+            used_for: none
+          '9':
+            admin_up: false
+            attached_lan_networks:
+            bound_interfaces:
+            bypass_pair:
+            description: ''
+            devicemgmt_policysetstack_id:
+            dhcp_relay:
+            directed_broadcast: false
+            ethernet_port:
+              full_duplex: false
+              speed: 0
+            ipv4_config:
+            mac_address:
+            mtu: 1500
+            nat_address:
+            nat_pools:
+            nat_port: 0
+            nat_zone_id:
+            network_context_id:
+            parent:
+            pppoe_config:
+            scope: local
+            service_link_config:
+            site_wan_interface_ids:
+            sub_interface:
+            tags:
+            type: port
+            used_for: none
+          controller 1:
+            admin_up: true
+            attached_lan_networks:
+            bound_interfaces:
+            bypass_pair:
+            description: ''
+            devicemgmt_policysetstack_id:
+            dhcp_relay:
+            directed_broadcast: false
+            ethernet_port:
+              full_duplex: false
+              speed: 0
+            ipv4_config:
+              dhcp_config:
+              dns_v4_config:
+              routes:
+              static_config:
+              type: dhcp
+            mac_address:
+            mtu: 1500
+            nat_address:
+            nat_pools:
+            nat_port: 0
+            nat_zone_id:
+            network_context_id:
+            parent:
+            pppoe_config:
+            scope: local
+            service_link_config:
+            site_wan_interface_ids:
+            sub_interface:
+            tags:
+            type: port
+            used_for: none
+        l3_direct_private_wan_forwarding: false
+        l3_lan_forwarding: false
+        model_name: ion 3102v
+        nat_policysetstack_id:
+        network_policysetstack_id:
+        ntp v2.0:
+        - description: Default NTP template created by super user.
+          name: default
+          ntp_servers:
+          - host: 0.cloudgenix.pool.ntp.org
+            max_poll: 10
+            min_poll: 9
+            version: 4
+          - host: 1.cloudgenix.pool.ntp.org
+            max_poll: 10
+            min_poll: 9
+            version: 4
+          - host: 2.cloudgenix.pool.ntp.org
+            max_poll: 10
+            min_poll: 9
+            version: 4
+          - host: 3.cloudgenix.pool.ntp.org
+            max_poll: 10
+            min_poll: 9
+            version: 4
+          - host: time.nist.gov
+            max_poll: 15
+            min_poll: 13
+            version: 4
+          source_interface_ids:
+          tags:
+        priority_policysetstack_id:
+        role: HUB
+        routing:
+          as_path_access_lists v2.1:
+            auto-core-16486754099420229-as-path-out:
+              as_path_regex_list:
+              - as_path_regex: .*
+                order: 1
+                permit: true
+              auto_generated: true
+              description:
+              tags:
+          bgp:
+            global_config v2.2:
+              admin_distance: 20
+              adv_interval: 1
+              graceful_restart: false
+              hold_time: 90
+              keepalive_time: 30
+              local_as_num: '254'
+              maximum_paths: 1
+              md5_secret:
+              multi_hop_limit: 1
+              peer_auth_type: none
+              peer_retry_time: 120
+              prefix_adv_type:
+              prefix_adv_type_to_lan: default
+              prefixes_to_adv_to_wan:
+              router_id:
+              stalepath_time: 120
+            peers v2.2:
+              v3102DC:
+                bgp_config:
+                  adv_interval: 1
+                  hold_time: 90
+                  keepalive_time: 30
+                  local_as_num:
+                  md5_secret:
+                  multi_hop_limit: 1
+                  peer_auth_type: none
+                  peer_retry_time: 120
+                description:
+                peer_ip: 192.168.100.253
+                peer_type: core
+                remote_as_num: '253'
+                route_map_in_id: auto-core-16486754099420229-route-map-in
+                route_map_out_id: auto-core-16486754099420229-route-map-out
+                scope: local
+                shutdown: false
+                tags:
+                update_source: 192.168.100.254
+          prefix_lists v2.0:
+            auto-prefix-adv-and-distribute:
+              auto_generated: true
+              description:
+              prefix_filter_list:
+              tags:
+            auto-prefix-adv-no-distribute:
+              auto_generated: true
+              description:
+              prefix_filter_list:
+              tags:
+          route_maps v2.1:
+            auto-core-16486754099420229-route-map-in:
+              auto_generated: true
+              description: Autogenerated core-16486754099420229 route-map IN
+              route_map_entries:
+              - continue_entry:
+                match:
+                order: 10
+                permit: true
+                set:
+                  additive_community: false
+                  as_path_prepend:
+                  community:
+                  ip_next_hop:
+                  local_preference: 100
+                  tag: 0
+                  weight: 0
+              tags:
+            auto-core-16486754099420229-route-map-out:
+              auto_generated: true
+              description: Autogenerated core-16486754099420229 route-map OUT
+              route_map_entries:
+              - continue_entry:
+                match:
+                  as_path_id: auto-core-16486754099420229-as-path-out
+                  community_list_id:
+                  ip_next_hop_id:
+                  ip_prefix_list_id: auto-prefix-adv-and-distribute
+                  tag: 0
+                order: 99
+                permit: true
+                set:
+                  additive_community: false
+                  as_path_prepend: 254,254,254,254
+                  community:
+                  ip_next_hop:
+                  local_preference: 0
+                  tag: 0
+                  weight: 0
+              - continue_entry:
+                match:
+                  as_path_id: auto-core-16486754099420229-as-path-out
+                  community_list_id:
+                  ip_next_hop_id:
+                  ip_prefix_list_id: auto-prefix-adv-no-distribute
+                  tag: 0
+                order: 100
+                permit: true
+                set:
+                  additive_community: false
+                  as_path_prepend: 254,254,254,254
+                  community: no-advertise
+                  ip_next_hop:
+                  local_preference: 0
+                  tag: 0
+                  weight: 0
+              tags:
+          static v2.0: []
+        serial_number: 564de2d5-072b-fa77-0ec9-1030ed696171
+        software_version: 5.6.5-b15
+        spoke_ha_config:
+        state: bound
+        tags:
+        tenant_id: '2372'
+        toolkit v2.2:
+          account_disable_interval: 5
+          inactive_interval: 15
+          otpkey_version: 1
+          retry_login_count: 5
+          ssh_enabled: true
+          ssh_outbound_enabled: false
+        vpn_to_vpn_forwarding: true
+    extended_tags:
+    hubclusters v2.0:
+      default-2372-16486700549110162:
+        admin_up: true
+        load_alarm_threshold: 90
+        subscription_factor: 0.5
+    lannetworks v3.1:
+      default_roubaix-ovh-dc_632887612:
+        description:
+        ipv4_config:
+          default_routers:
+          dhcp_relay:
+          dhcp_server:
+          prefixes:
+          - 192.168.100.0/24
+        network_context_id:
+        scope: global
+        tags:
+    location:
+      description:
+      latitude: 50.691826
+      longitude: 3.202181
+    nat_policysetstack_id:
+    network_policysetstack_id:
+    policy_set_id:
+    priority_policysetstack_id:
+    security_policyset_id:
+    service_binding:
+    tags:
+    waninterfaces v2.6:
+      INTERNET-OVH:
+        bfd_mode: aggressive
+        bw_config_mode: manual
+        bwc_enabled: true
+        cost: 128
+        description:
+        label_id: Ethernet Internet
+        link_bw_down: 100.0
+        link_bw_up: 100.0
+        lqm_config:
+        lqm_enabled: true
+        network_id: INTERNET
+        network_type: publicwan
+        tags:
+        type: publicwan
+        use_for_application_reachability_probes:
+        use_for_controller_connections:
+        vpnlink_configuration:
