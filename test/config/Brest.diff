@@ -5,7 +5,7 @@
  type: cloudgenix template
  version: 1.0
 -# Created at 2022-08-22T13:39:26.979192Z
-+# Created at 2022-08-22T14:35:59.577152Z
++# Created at 2022-08-22T14:38:34.557045Z
  # by system_2372@jeanlouis.prisma.sase
 +# FROM_CLOUDBLADE
  sites v4.5:
@@ -22,13 +22,3 @@
                \ Prisma License: FWAAS Aggregate Bandwidth\n"
              devicemgmt_policysetstack_id:
              dhcp_relay:
-@@ -196,9 +197,6 @@
-                   type: psk
-                 ipsec_profile_id: AUTO-PRISMA_IPSEC-Profile
-               peer:
--                hostname:
--                ip_addresses:
--                - 35.181.98.116
-               service_endpoint_id: Prisma France North (eu-west-3)
-               type: ipsec
-             site_wan_interface_ids:
