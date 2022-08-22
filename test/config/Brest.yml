@@ -1,7 +1,7 @@
 ---
 type: cloudgenix template
 version: 1.0
-# Created at 2022-08-22T12:17:14.463672Z
+# Created at 2022-08-22T13:39:09.081384Z
 # by system_2372@jeanlouis.prisma.sase
 sites v4.5:
   Brest:
@@ -24,7 +24,7 @@ sites v4.5:
         - SPOKE
         cluster_insertion_mode:
         cluster_member_id:
-        connected: true
+        connected: false
         deployment_op:
         description:
         element_security_zones v2.0: []
