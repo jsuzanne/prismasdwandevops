@@ -4,19 +4,21 @@
  ---
  type: cloudgenix template
  version: 1.0
--# Created at 2022-08-07T09:01:46.363446Z
-+# Created at 2022-08-22T12:17:06.953135Z
+-# Created at 2022-08-22T12:17:14.463672Z
++# Created at 2022-08-22T12:20:52.382884Z
  # by system_2372@jeanlouis.prisma.sase
 +# FROM_CLOUDBLADE
  sites v4.5:
    Brest:
      address:
-@@ -24,7 +25,7 @@
-         - SPOKE
-         cluster_insertion_mode:
-         cluster_member_id:
--        connected: false
-+        connected: true
-         deployment_op:
-         description:
-         element_security_zones v2.0: []
+@@ -150,8 +151,8 @@
+             attached_lan_networks:
+             bound_interfaces:
+             bypass_pair:
+-            description: "Prisma Access info:\n Remote Onboarding: AUTO-CGX_CLLBLC4H4LYS_03_b930\n\
+-              \ IPSEC Tunnel: AUTO-CGX_CLLBLC4H4LYS_03_b930\n IKE Gateway: AUTO-CGX_CLLBLC4H4LYS_03_b930\n\
++            description: "Prisma Access info:\n Remote Onboarding: AUTO-CGX_CMCJNU8HYSTW_03_b930\n\
++              \ IPSEC Tunnel: AUTO-CGX_CMCJNU8HYSTW_03_b930\n IKE Gateway: AUTO-CGX_CMCJNU8HYSTW_03_b930\n\
+               \ Prisma License: FWAAS Aggregate Bandwidth\n"
+             devicemgmt_policysetstack_id:
+             dhcp_relay:
