@@ -1,0 +1,181 @@
+ERROR: 08/22/2022 12:07:26 PM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/2372/sites/1658405236687014196/elements/1658405240234024896/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 22 Aug 2022 12:07:26 GMT
+	Content-Length: 234
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1661170046379000000005532602267833729094",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
+ERROR: 08/22/2022 12:07:38 PM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/2372/sites/1658405236687014196/elements/1658405240234024896/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 22 Aug 2022 12:07:38 GMT
+	Content-Length: 234
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1661170058350024199996741744949418657500",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
+ERROR: 08/22/2022 12:07:50 PM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/2372/sites/1658405236687014196/elements/1658405240234024896/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 22 Aug 2022 12:07:50 GMT
+	Content-Length: 234
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1661170070548001099991367672648826750112",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
+ERROR: 08/22/2022 12:08:03 PM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/2372/sites/1658405236687014196/elements/1658405240234024896/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 22 Aug 2022 12:08:03 GMT
+	Content-Length: 234
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1661170083489006400008698651709970078276",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
+ERROR: 08/22/2022 12:08:15 PM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/2372/sites/1658405236687014196/elements/1658405240234024896/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Mon, 22 Aug 2022 12:08:15 GMT
+	Content-Length: 234
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1661170095072016600000734262729098787377",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
+WARNING: 08/22/2022 12:08:26 PM WARNING: Site name/id "Brest" not found.
+ERROR: 08/22/2022 12:08:26 PM ERROR: No matching site found that matched entered site(s): 
+	Brest
+Exiting.
+INFO: 08/22/2022 12:08:40 PM MESSAGE: Created Site Brest.
+INFO: 08/22/2022 12:08:41 PM MESSAGE:  Created waninterface Circuit to MPLS.
+INFO: 08/22/2022 12:08:41 PM MESSAGE:  Created waninterface Circuit to OBS.
+INFO: 08/22/2022 12:08:41 PM MESSAGE:  Element: Code is at correct version 5.6.3-b11.
+INFO: 08/22/2022 12:08:42 PM MESSAGE:   Assigning Element Brest-R1.
+INFO: 08/22/2022 12:08:42 PM MESSAGE:   Element Brest-R1 not yet in requested state(s): bound (is bound_in_progress). Waited so far 0 seconds out of 5.
+ERROR: 08/22/2022 12:08:48 PM ERROR: Element Brest-R1 state transition took longer than 5 seconds. Exiting.
