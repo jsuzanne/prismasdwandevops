@@ -1,0 +1,107 @@
+--- /tmp/ci/2372/prismasdwandevops/test/config/Brest.yml
++++ /tmp/ci/2372/Brest_controller.yml
+@@ -1,8 +1,9 @@
+ ---
+ type: cloudgenix template
+ version: 1.0
+-# Created at 2022-08-07T09:01:46.363446Z
++# Created at 2022-08-22T12:16:38.566747Z
+ # by system_2372@jeanlouis.prisma.sase
++# FROM_CLOUDBLADE
+ sites v4.5:
+   Brest:
+     address:
+@@ -24,7 +25,7 @@
+         - SPOKE
+         cluster_insertion_mode:
+         cluster_member_id:
+-        connected: false
++        connected: true
+         deployment_op:
+         description:
+         element_security_zones v2.0: []
+@@ -145,68 +146,6 @@
+             - prisma_region:eu-west-3:1
+             type: port
+             used_for: public
+-          AUTO-PRISMA_IPSEC-Tunnel_eu-west-3_3:
+-            admin_up: true
+-            attached_lan_networks:
+-            bound_interfaces:
+-            bypass_pair:
+-            description: "Prisma Access info:\n Remote Onboarding: AUTO-CGX_CLLBLC4H4LYS_03_b930\n\
+-              \ IPSEC Tunnel: AUTO-CGX_CLLBLC4H4LYS_03_b930\n IKE Gateway: AUTO-CGX_CLLBLC4H4LYS_03_b930\n\
+-              \ Prisma License: FWAAS Aggregate Bandwidth\n"
+-            devicemgmt_policysetstack_id:
+-            dhcp_relay:
+-            directed_broadcast: false
+-            ethernet_port:
+-              full_duplex: false
+-              speed: 0
+-            ipv4_config:
+-              dhcp_config:
+-              dns_v4_config:
+-              routes:
+-              static_config:
+-                address: 172.16.0.0/31
+-              type: static
+-            mac_address:
+-            mtu: 1400
+-            nat_address:
+-            nat_pools:
+-            nat_port: 0
+-            nat_zone_id:
+-            network_context_id:
+-            parent: '3'
+-            pppoe_config:
+-            scope: local
+-            service_link_config:
+-              gre_config:
+-              ipsec_config:
+-                authentication:
+-                  certificate:
+-                  ikev1_params:
+-                    xauth_id:
+-                    xauth_secret:
+-                    xauth_type: none
+-                  local_ca_certificate:
+-                  local_id: custom
+-                  local_id_custom: cgx-tunnel.0@mycompany.com
+-                  passphrase:
+-                  private_key:
+-                  remote_ca_certificate:
+-                  remote_id: prisma-tunnel@mycompany.com
+-                  secret:
+-                  type: psk
+-                ipsec_profile_id: AUTO-PRISMA_IPSEC-Profile
+-              peer:
+-                hostname:
+-                ip_addresses:
+-                - 35.181.98.116
+-              service_endpoint_id: Prisma France North (eu-west-3)
+-              type: ipsec
+-            site_wan_interface_ids:
+-            sub_interface:
+-            tags:
+-            - AUTO-PRISMA_MANAGED
+-            type: service_link
+-            used_for: none
+           controller 1:
+             admin_up: true
+             attached_lan_networks:
+@@ -282,13 +221,13 @@
+               graceful_restart: false
+               hold_time: 90
+               keepalive_time: 30
+-              local_as_num: '65001'
++              local_as_num:
+               maximum_paths: 1
+               md5_secret:
+               multi_hop_limit: 1
+               peer_auth_type: none
+               peer_retry_time: 120
+-              prefix_adv_type: aggregate-auto
++              prefix_adv_type:
+               prefix_adv_type_to_lan: default
+               prefixes_to_adv_to_wan:
+               router_id:
