@@ -1,8 +1,9 @@
 ---
 type: cloudgenix template
 version: 1.0
-# Created at 2022-08-07T09:01:47.605615Z
+# Created at 2022-08-29T22:30:22.051040Z
 # by system_2372@jeanlouis.prisma.sase
+# FROM_CLOUDBLADE
 sites v4.5:
   OVH Branch Amsterdam:
     address:
@@ -43,7 +44,7 @@ sites v4.5:
         - SPOKE
         cluster_insertion_mode:
         cluster_member_id:
-        connected: false
+        connected: true
         deployment_op:
         description: OVH Amsterdam
         element_security_zones v2.0: []

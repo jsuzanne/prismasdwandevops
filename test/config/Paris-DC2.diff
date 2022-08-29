@@ -1,22 +1,22 @@
---- /tmp/ci/2372/prismasdwandevops/test/config/Brest.yml
-+++ /tmp/ci/2372/Brest_controller.yml
+--- /tmp/ci/2372/prismasdwandevops/test/config/Paris-DC2.yml
++++ /tmp/ci/2372/Paris-DC2_controller.yml
 @@ -1,8 +1,9 @@
  ---
  type: cloudgenix template
  version: 1.0
--# Created at 2022-08-22T19:36:42.259768Z
-+# Created at 2022-08-29T22:30:00.394268Z
+-# Created at 2022-08-07T09:01:49.959000Z
++# Created at 2022-08-29T22:29:41.592866Z
  # by system_2372@jeanlouis.prisma.sase
 +# FROM_CLOUDBLADE
  sites v4.5:
-   Brest:
+   Paris-DC2:
      address:
 @@ -24,7 +25,7 @@
          - SPOKE
-         cluster_insertion_mode:
+         cluster_insertion_mode: auto
          cluster_member_id:
--        connected: true
-+        connected: false
+-        connected: false
++        connected: true
          deployment_op:
          description:
          element_security_zones v2.0: []

@@ -1,0 +1,21 @@
+INFO: 08/29/2022 10:29:52 PM MESSAGE: No Change for Site Villers.
+INFO: 08/29/2022 10:29:53 PM MESSAGE:  No Change for Waninterface INTERNET-BR2.
+INFO: 08/29/2022 10:29:53 PM MESSAGE:  No Change for Waninterface MPLS-BR2.
+INFO: 08/29/2022 10:29:53 PM MESSAGE:  Element: Code is at correct version 5.6.5-b15.
+INFO: 08/29/2022 10:29:53 PM MESSAGE:   No Change for Element BR2-R1.
+INFO: 08/29/2022 10:29:54 PM MESSAGE:    No Change for Interface 1.
+INFO: 08/29/2022 10:29:54 PM MESSAGE:    No Change for Interface 2.
+INFO: 08/29/2022 10:29:54 PM MESSAGE:    No Change for Interface controller 1.
+INFO: 08/29/2022 10:29:54 PM MESSAGE:    No Change for Interface 3.
+INFO: 08/29/2022 10:29:54 PM MESSAGE:    No Change for Interface AUTO-PRISMA_IPSEC-Tunnel_france-south_3.
+INFO: 08/29/2022 10:29:54 PM MESSAGE:    No Change for Interface sl-zscaler-16388267495290184.
+INFO: 08/29/2022 10:29:54 PM MESSAGE:    No Change for Spoke HA in Element BR2-R1.
+INFO: 08/29/2022 10:29:54 PM MESSAGE:    No Change for BGP Global Config 16388269276050045.
+INFO: 08/29/2022 10:29:55 PM MESSAGE:    No Change for NTP 16388264624910061.
+INFO: 08/29/2022 10:29:55 PM MESSAGE:    No Change for dnsservices BR2_DNS_Server.
+INFO: 08/29/2022 10:29:55 PM MESSAGE:    No Change for Element Securityzone mapping for LAN.
+INFO: 08/29/2022 10:29:55 PM MESSAGE:    No Change for Element Securityzone mapping for MPLS.
+INFO: 08/29/2022 10:29:55 PM MESSAGE:    No Change for Element Securityzone mapping for INTERNET.
+INFO: 08/29/2022 10:29:55 PM MESSAGE:    No Change for Toolkit 16388266046140187.
+INFO: 08/29/2022 10:29:56 PM MESSAGE: No Change for Site Villers state (active).
+INFO: 08/29/2022 10:29:56 PM MESSAGE: DONE

@@ -1,0 +1,25 @@
+WARNING: 08/29/2022 10:30:12 PM WARNING: Site WAN Interface is missing a name. Please correct this in UI. Setting to "Circuit to OBS" in YAML file, but this may cause issues if configuration is re-applied to site.
+INFO: 08/29/2022 10:30:15 PM MESSAGE: No Change for Site OVH Branch Amsterdam.
+INFO: 08/29/2022 10:30:16 PM MESSAGE:  Updated Waninterface Circuit to OBS (Etag 2 -> 3).
+INFO: 08/29/2022 10:30:16 PM MESSAGE:  No Change for Dhcpserver for 192.168.141.0/24.
+INFO: 08/29/2022 10:30:16 PM MESSAGE:  Element: Code is at correct version 5.6.1-b18.
+INFO: 08/29/2022 10:30:16 PM MESSAGE:   No Change for Element OVHBranch-R1.
+INFO: 08/29/2022 10:30:17 PM MESSAGE:    No Change for Interface 1.
+INFO: 08/29/2022 10:30:17 PM MESSAGE:    No Change for Interface 2.
+INFO: 08/29/2022 10:30:17 PM MESSAGE:    No Change for Interface controller 1.
+INFO: 08/29/2022 10:30:17 PM MESSAGE:    No Change for Interface 3.
+INFO: 08/29/2022 10:30:17 PM MESSAGE:    No Change for Interface 4.
+INFO: 08/29/2022 10:30:17 PM MESSAGE:    No Change for Interface 5.
+INFO: 08/29/2022 10:30:17 PM MESSAGE:    No Change for Interface 6.
+INFO: 08/29/2022 10:30:18 PM MESSAGE:    No Change for Interface 7.
+INFO: 08/29/2022 10:30:18 PM MESSAGE:    No Change for Interface 8.
+INFO: 08/29/2022 10:30:18 PM MESSAGE:    No Change for Interface 9.
+INFO: 08/29/2022 10:30:18 PM MESSAGE:    No Change for Interface AUTO-PRISMA_IPSEC-Tunnel_eu-west-3_2.
+INFO: 08/29/2022 10:30:18 PM MESSAGE:    No Change for Interface AUTO-PRISMA_IPSEC-Tunnel_france-south_2.
+INFO: 08/29/2022 10:30:18 PM MESSAGE:    No Change for Interface sl-zscaler-16491739629170061.
+INFO: 08/29/2022 10:30:18 PM MESSAGE:    No Change for Spoke HA in Element OVHBranch-R1.
+INFO: 08/29/2022 10:30:19 PM MESSAGE:    No Change for BGP Global Config 16491742795920242.
+INFO: 08/29/2022 10:30:19 PM MESSAGE:    No Change for NTP 16491737391900019.
+INFO: 08/29/2022 10:30:19 PM MESSAGE:    No Change for Toolkit 16491737573420228.
+INFO: 08/29/2022 10:30:19 PM MESSAGE: No Change for Site OVH Branch Amsterdam state (active).
+INFO: 08/29/2022 10:30:19 PM MESSAGE: DONE

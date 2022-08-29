@@ -1,8 +1,9 @@
 ---
 type: cloudgenix template
 version: 1.0
-# Created at 2022-08-07T09:01:51.096524Z
+# Created at 2022-08-29T22:30:35.741559Z
 # by system_2372@jeanlouis.prisma.sase
+# FROM_CLOUDBLADE
 sites v4.5:
   Roubaix OVH DC:
     address:
@@ -24,7 +25,7 @@ sites v4.5:
         - SPOKE
         cluster_insertion_mode: auto
         cluster_member_id:
-        connected: false
+        connected: true
         deployment_op:
         description:
         element_security_zones v2.0: []

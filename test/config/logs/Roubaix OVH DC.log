@@ -1,0 +1,27 @@
+INFO: 08/29/2022 10:30:28 PM MESSAGE: No Change for Site Roubaix OVH DC.
+INFO: 08/29/2022 10:30:28 PM MESSAGE:  No Change for Waninterface INTERNET-OVH.
+INFO: 08/29/2022 10:30:28 PM MESSAGE:  No Change for Lannetwork default_roubaix-ovh-dc_632887612.
+INFO: 08/29/2022 10:30:28 PM MESSAGE:  Element: Code is at correct version 5.6.5-b15.
+INFO: 08/29/2022 10:30:29 PM MESSAGE:   No Change for Element DC-OVH.
+INFO: 08/29/2022 10:30:29 PM MESSAGE:    No Change for Interface 1.
+INFO: 08/29/2022 10:30:29 PM MESSAGE:    No Change for Interface 2.
+INFO: 08/29/2022 10:30:29 PM MESSAGE:    No Change for Interface controller 1.
+INFO: 08/29/2022 10:30:29 PM MESSAGE:    No Change for Interface 3.
+INFO: 08/29/2022 10:30:29 PM MESSAGE:    No Change for Interface 4.
+INFO: 08/29/2022 10:30:30 PM MESSAGE:    No Change for Interface 5.
+INFO: 08/29/2022 10:30:30 PM MESSAGE:    No Change for Interface 6.
+INFO: 08/29/2022 10:30:30 PM MESSAGE:    No Change for Interface 7.
+INFO: 08/29/2022 10:30:30 PM MESSAGE:    No Change for Interface 8.
+INFO: 08/29/2022 10:30:30 PM MESSAGE:    No Change for Interface 9.
+INFO: 08/29/2022 10:30:31 PM MESSAGE:    No Change for Spoke HA in Element DC-OVH.
+WARNING: 08/29/2022 10:30:31 PM WARNING: AS-PATH Access List auto-core-16486754099420229-as-path-out is auto_generated. Skipping.
+WARNING: 08/29/2022 10:30:31 PM WARNING: Routing Prefix List auto-prefix-adv-and-distribute is auto_generated. Skipping.
+WARNING: 08/29/2022 10:30:31 PM WARNING: Routing Prefix List auto-prefix-adv-no-distribute is auto_generated. Skipping.
+WARNING: 08/29/2022 10:30:31 PM WARNING: Route Map auto-core-16486754099420229-route-map-in is auto_generated. Skipping.
+WARNING: 08/29/2022 10:30:31 PM WARNING: Route Map auto-core-16486754099420229-route-map-out is auto_generated. Skipping.
+INFO: 08/29/2022 10:30:31 PM MESSAGE:    No Change for BGP Global Config 16486701606030071.
+INFO: 08/29/2022 10:30:31 PM MESSAGE:    No Change for BGP Peer v3102DC.
+INFO: 08/29/2022 10:30:32 PM MESSAGE:    No Change for NTP 16486693827680005.
+INFO: 08/29/2022 10:30:32 PM MESSAGE:    No Change for Toolkit 16486693978480209.
+INFO: 08/29/2022 10:30:32 PM MESSAGE: No Change for Site Roubaix OVH DC state (active).
+INFO: 08/29/2022 10:30:32 PM MESSAGE: DONE
