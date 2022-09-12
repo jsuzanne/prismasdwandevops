@@ -16,3 +16,9 @@ INFO: 09/12/2022 07:05:43 PM MESSAGE:  Created waninterface Circuit to OBS.
 INFO: 09/12/2022 07:05:43 PM MESSAGE:  Created waninterface Circuit to SFR.
 INFO: 09/12/2022 07:05:43 PM MESSAGE: No Change for Site April-Branch state (disabled).
 INFO: 09/12/2022 07:05:43 PM MESSAGE: DONE
+INFO: 09/12/2022 07:08:01 PM MESSAGE: Created Site April-Branch.
+INFO: 09/12/2022 07:08:01 PM MESSAGE:  Created waninterface Circuit to MPLS.
+INFO: 09/12/2022 07:08:02 PM MESSAGE:  Created waninterface Circuit to OBS.
+INFO: 09/12/2022 07:08:02 PM MESSAGE:  Created waninterface Circuit to SFR.
+INFO: 09/12/2022 07:08:02 PM MESSAGE: No Change for Site April-Branch state (disabled).
+INFO: 09/12/2022 07:08:02 PM MESSAGE: DONE
