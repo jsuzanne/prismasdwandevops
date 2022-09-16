@@ -154,3 +154,55 @@ RESPONSE DATA:
         }
     ]
 }
+INFO: 09/16/2022 05:03:16 PM MESSAGE: No Change for Site AWS-London-DC3.
+INFO: 09/16/2022 05:03:16 PM MESSAGE:  No Change for Waninterface Internet AWS.
+ERROR: 09/16/2022 05:03:16 PM ERROR: Lannetwork creation failed: 
+REQUEST: POST /v3.1/api/tenants/2372/sites/16464893106690107/lannetworks
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Content-Type: application/json
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+	Content-Length: 233
+REQUEST BODY:
+{
+    "description": null,
+    "ipv4_config": {
+        "default_routers": null,
+        "dhcp_relay": null,
+        "dhcp_server": null,
+        "prefixes": [
+            "172.16.3.0/24"
+        ]
+    },
+    "network_context_id": null,
+    "scope": "global",
+    "tags": null,
+    "name": "default_aws-dc3_578246193"
+}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Fri, 16 Sep 2022 17:03:16 GMT
+	Content-Length: 292
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1663347796732025500006391289316439663504",
+    "_error": [
+        {
+            "code": "SAME_IPV4_PREFIX",
+            "message": "Same IPv4 Prefix cannot be configured for any other LAN network for the site."
+        }
+    ]
+}
