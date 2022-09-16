@@ -9145,3 +9145,8 @@ INFO: 09/16/2022 11:55:31 AM MESSAGE:  No Change for Waninterface Circuit to MPL
 INFO: 09/16/2022 11:55:31 AM MESSAGE:  No Change for Waninterface Circuit to OBS.
 INFO: 09/16/2022 11:55:31 AM MESSAGE:   Element Brest-R1 not yet in requested state(s): ready, bound (is bound_in_progress). Waited so far 0 seconds out of 5.
 ERROR: 09/16/2022 11:55:38 AM ERROR: Element Brest-R1 state transition took longer than 5 seconds. Exiting.
+INFO: 09/16/2022 11:55:55 AM MESSAGE: Updated Site Brest (Etag 45 -> 46).
+INFO: 09/16/2022 11:55:55 AM MESSAGE:  No Change for Waninterface Circuit to MPLS.
+INFO: 09/16/2022 11:55:55 AM MESSAGE:  No Change for Waninterface Circuit to OBS.
+INFO: 09/16/2022 11:55:56 AM MESSAGE:   Element Brest-R1 not yet in requested state(s): ready, bound (is bound_in_progress). Waited so far 0 seconds out of 5.
+ERROR: 09/16/2022 11:56:02 AM ERROR: Element Brest-R1 state transition took longer than 5 seconds. Exiting.
