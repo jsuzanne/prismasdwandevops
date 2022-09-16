@@ -9245,3 +9245,112 @@ INFO: 09/16/2022 12:04:08 PM MESSAGE:  Created waninterface Circuit to MPLS.
 INFO: 09/16/2022 12:04:08 PM MESSAGE:  Created waninterface Circuit to OBS.
 INFO: 09/16/2022 12:04:08 PM MESSAGE:   Element Brest-R1 not yet in requested state(s): ready, bound (is bound_in_progress). Waited so far 0 seconds out of 5.
 ERROR: 09/16/2022 12:04:14 PM ERROR: Element Brest-R1 state transition took longer than 5 seconds. Exiting.
+ERROR: 09/16/2022 12:04:27 PM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/2372/sites/1663328244001015996/elements/1658405240234024896/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Fri, 16 Sep 2022 12:04:27 GMT
+	Content-Length: 234
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1663329867881002600002241693191787841470",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
+ERROR: 09/16/2022 12:04:40 PM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/2372/sites/1663328244001015996/elements/1658405240234024896/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Fri, 16 Sep 2022 12:04:40 GMT
+	Content-Length: 234
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1663329880270023299995269430980286642768",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
+ERROR: 09/16/2022 12:04:59 PM ERROR: Element interfaces get failed: 
+REQUEST: GET /v4.9/api/tenants/2372/sites/1663328244001015996/elements/1658405240234024896/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+REQUEST BODY:
+{}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Fri, 16 Sep 2022 12:04:59 GMT
+	Content-Length: 234
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1663329899647013500008237155746855171792",
+    "_error": [
+        {
+            "code": "ELEMENT_NOT_FOUND",
+            "message": "Element not found."
+        }
+    ]
+}
+INFO: 09/16/2022 12:05:13 PM MESSAGE: Updated Site Brest (Etag 65 -> 66).
+INFO: 09/16/2022 12:05:13 PM MESSAGE:  No Change for Waninterface Circuit to MPLS.
+INFO: 09/16/2022 12:05:14 PM MESSAGE:  No Change for Waninterface Circuit to OBS.
+INFO: 09/16/2022 12:05:14 PM MESSAGE:  Element: Code is at correct version 5.6.3-b11.
+INFO: 09/16/2022 12:05:14 PM MESSAGE:   Assigning Element Brest-R1.
+INFO: 09/16/2022 12:05:14 PM MESSAGE:   Element Brest-R1 not yet in requested state(s): bound (is bound_in_progress). Waited so far 0 seconds out of 5.
+ERROR: 09/16/2022 12:05:20 PM ERROR: Element Brest-R1 state transition took longer than 5 seconds. Exiting.
