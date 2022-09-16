@@ -66890,3 +66890,119 @@ RESPONSE DATA:
         }
     ]
 }
+INFO: 09/16/2022 02:57:20 PM MESSAGE: Updated Site Brest (Etag 562 -> 563).
+INFO: 09/16/2022 02:57:20 PM MESSAGE:  No Change for Waninterface Circuit to MPLS.
+INFO: 09/16/2022 02:57:20 PM MESSAGE:  No Change for Waninterface Circuit to OBS.
+INFO: 09/16/2022 02:57:20 PM MESSAGE:  Element: Code is at correct version 5.6.3-b11.
+INFO: 09/16/2022 02:57:21 PM MESSAGE:   No Change for Element Brest-R1.
+INFO: 09/16/2022 02:57:21 PM MESSAGE:    No Change for Interface 1.
+INFO: 09/16/2022 02:57:21 PM MESSAGE:    No Change for Interface 2.
+INFO: 09/16/2022 02:57:21 PM MESSAGE:    No Change for Interface controller 1.
+INFO: 09/16/2022 02:57:21 PM MESSAGE:    No Change for Interface 3.
+ERROR: 09/16/2022 02:57:21 PM ERROR: Interface creation failed: 
+REQUEST: POST /v4.9/api/tenants/2372/sites/1663328244001015996/elements/1658405240234024896/interfaces
+REQUEST HEADERS:
+	User-Agent: python-requests/2.25.1 (CGX SDK v5.4.3b1)
+	Accept-Encoding: gzip, deflate
+	Accept: application/json
+	Connection: keep-alive
+	X-Auth-Token: <SENSITIVE - NOT SHOWN BY DEFAULT>
+	Content-Type: application/json
+	Cookie: AUTH_TOKEN="<SENSITIVE - NOT SHOWN BY DEFAULT>"
+	Content-Length: 1592
+REQUEST BODY:
+{
+    "admin_up": true,
+    "attached_lan_networks": null,
+    "bound_interfaces": null,
+    "bypass_pair": null,
+    "description": "Prisma Access info:\n Remote Onboarding: AUTO-CGX_CLLBLC4H4LYS_03_b930\n IPSEC Tunnel: AUTO-CGX_CLLBLC4H4LYS_03_b930\n IKE Gateway: AUTO-CGX_CLLBLC4H4LYS_03_b930\n Prisma License: FWAAS Aggregate Bandwidth\n",
+    "devicemgmt_policysetstack_id": null,
+    "dhcp_relay": null,
+    "directed_broadcast": false,
+    "ethernet_port": {
+        "full_duplex": false,
+        "speed": 0
+    },
+    "ipv4_config": {
+        "dhcp_config": null,
+        "dns_v4_config": null,
+        "routes": null,
+        "static_config": {
+            "address": "172.16.0.0/31"
+        },
+        "type": "static"
+    },
+    "mac_address": null,
+    "mtu": 1400,
+    "nat_address": null,
+    "nat_pools": null,
+    "nat_port": 0,
+    "nat_zone_id": null,
+    "network_context_id": null,
+    "parent": "1658405258997022496",
+    "pppoe_config": null,
+    "scope": "local",
+    "service_link_config": {
+        "gre_config": null,
+        "ipsec_config": {
+            "authentication": {
+                "certificate": null,
+                "ikev1_params": {
+                    "xauth_id": null,
+                    "xauth_secret": null,
+                    "xauth_type": "none"
+                },
+                "local_ca_certificate": null,
+                "local_id": "custom",
+                "local_id_custom": "cgx-tunnel.0@mycompany.com",
+                "passphrase": null,
+                "private_key": null,
+                "remote_ca_certificate": null,
+                "remote_id": "prisma-tunnel@mycompany.com",
+                "secret": null,
+                "type": "psk"
+            },
+            "ipsec_profile_id": "16433956758900255"
+        },
+        "peer": {
+            "hostname": null,
+            "ip_addresses": [
+                "35.181.98.116"
+            ]
+        },
+        "service_endpoint_id": "16433956777700026",
+        "type": "ipsec"
+    },
+    "site_wan_interface_ids": null,
+    "sub_interface": null,
+    "tags": [
+        "AUTO-PRISMA_MANAGED"
+    ],
+    "type": "service_link",
+    "used_for": "none",
+    "name": "AUTO-PRISMA_IPSEC-Tunnel_eu-west-3_3"
+}
+
+RESPONSE: 400 Bad Request
+RESPONSE HEADERS:
+	Server: nginx
+	Date: Fri, 16 Sep 2022 14:57:21 GMT
+	Content-Length: 292
+	Connection: keep-alive
+RESPONSE DATA:
+{
+    "_etag": 0,
+    "_content_length": "0",
+    "_schema": 0,
+    "_created_on_utc": 0,
+    "_updated_on_utc": 0,
+    "_status_code": "400",
+    "_request_id": "1663340241774022100003720931718281874419",
+    "_error": [
+        {
+            "code": "IPSECCONFIG_AUTH_SECRET_NULL",
+            "message": "Authentication secret cannot be null for authentication type psk."
+        }
+    ]
+}
