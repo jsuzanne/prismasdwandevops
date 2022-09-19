@@ -4,19 +4,19 @@
  ---
  type: cloudgenix template
  version: 1.0
--# Created at 2022-08-07T09:01:45.106372Z
-+# Created at 2022-08-29T22:29:15.931262Z
+-# Created at 2022-08-29T22:29:23.370971Z
++# Created at 2022-09-19T10:51:48.455539Z
  # by system_2372@jeanlouis.prisma.sase
 +# FROM_CLOUDBLADE
  sites v4.5:
    Bordeaux:
      address:
-@@ -24,7 +25,7 @@
-         - SPOKE
-         cluster_insertion_mode:
-         cluster_member_id:
--        connected: false
-+        connected: true
-         deployment_op:
-         description:
-         element_security_zones v2.0:
+@@ -165,7 +166,7 @@
+             - INTERNET-BR1
+             sub_interface:
+             tags:
+-            - prisma_region:france-south:1
++            - prisma_region:eu-west-3:1
+             type: port
+             used_for: public
+           AUTO-PRISMA_IPSEC-Tunnel_france-south_3:
