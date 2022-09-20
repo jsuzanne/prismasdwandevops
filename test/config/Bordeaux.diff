@@ -5,27 +5,22 @@
  type: cloudgenix template
  version: 1.0
 -# Created at 2022-08-29T22:29:23.370971Z
-+# Created at 2022-09-19T15:13:31.421436Z
++# Created at 2022-09-20T16:43:35.641889Z
  # by system_2372@jeanlouis.prisma.sase
 +# FROM_CLOUDBLADE
  sites v4.5:
    Bordeaux:
      address:
-@@ -346,6 +347,9 @@
-     - key: prisma_access
-       value: '{"bgp":{"enabled":false},"bandwidth_detection":{"enabled":false}}'
-       value_type: object
-+    - key: AUTO-zscaler
-+      value: '{"customEndpointName":"","gatewayOptions":{"xffForwardEnabled":false,"authRequired":false,"ofwEnabled":false,"aupEnabled":false,"cautionEnabled":false},"subLocations":[]}'
-+      value_type: object
-     location:
-       description:
-       latitude: 44.83
-@@ -364,6 +368,7 @@
-         tags:
+@@ -356,12 +357,6 @@
+     priority_policysetstack_id: Branch QoS Simple Stack (Simple)
+     security_policyset_id:
+     service_binding: Region-WEST
+-    spokeclusters v2.0:
+-      TEST1:
+-        advertisement_interval: 1.0
+-        description:
+-        preempt: true
+-        tags:
      tags:
      - prisma_access
-+    - AUTO-zscaler
      waninterfaces v2.6:
-       INTERNET-BR1:
-         bfd_mode: aggressive
