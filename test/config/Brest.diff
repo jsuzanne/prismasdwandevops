@@ -5,7 +5,7 @@
  type: cloudgenix template
  version: 1.0
 -# Created at 2022-08-31T05:57:28.467589Z
-+# Created at 2022-09-12T19:24:17.248678Z
++# Created at 2022-09-21T06:30:21.620064Z
  # by system_2372@jeanlouis.prisma.sase
 +# FROM_CLOUDBLADE
  sites v4.5:
@@ -17,8 +17,8 @@
              bypass_pair:
 -            description: "Prisma Access info:\n Remote Onboarding: AUTO-CGX_CLLBLC4H4LYS_03_b930\n\
 -              \ IPSEC Tunnel: AUTO-CGX_CLLBLC4H4LYS_03_b930\n IKE Gateway: AUTO-CGX_CLLBLC4H4LYS_03_b930\n\
-+            description: "Prisma Access info:\n Remote Onboarding: AUTO-CGX_CMCJNU8HYSTW_03_b930\n\
-+              \ IPSEC Tunnel: AUTO-CGX_CMCJNU8HYSTW_03_b930\n IKE Gateway: AUTO-CGX_CMCJNU8HYSTW_03_b930\n\
++            description: "Prisma Access info:\n Remote Onboarding: AUTO-CGX_CMXSNIGNLOZG_03_b930\n\
++              \ IPSEC Tunnel: AUTO-CGX_CMXSNIGNLOZG_03_b930\n IKE Gateway: AUTO-CGX_CMXSNIGNLOZG_03_b930\n\
                \ Prisma License: FWAAS Aggregate Bandwidth\n"
              devicemgmt_policysetstack_id:
              dhcp_relay:
