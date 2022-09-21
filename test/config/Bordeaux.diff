@@ -5,22 +5,45 @@
  type: cloudgenix template
  version: 1.0
 -# Created at 2022-08-29T22:29:23.370971Z
-+# Created at 2022-09-20T16:43:35.641889Z
++# Created at 2022-09-21T06:35:31.403343Z
  # by system_2372@jeanlouis.prisma.sase
 +# FROM_CLOUDBLADE
  sites v4.5:
    Bordeaux:
      address:
-@@ -356,12 +357,6 @@
-     priority_policysetstack_id: Branch QoS Simple Stack (Simple)
-     security_policyset_id:
-     service_binding: Region-WEST
--    spokeclusters v2.0:
--      TEST1:
--        advertisement_interval: 1.0
--        description:
--        preempt: true
--        tags:
-     tags:
-     - prisma_access
-     waninterfaces v2.6:
+@@ -42,7 +43,6 @@
+           - VPN
+           zone_id: MPLS
+         - interface_ids:
+-          - AUTO-PRISMA_IPSEC-Tunnel_france-south_3
+           lannetwork_ids:
+           waninterface_ids:
+           - INTERNET-BR1
+@@ -187,7 +187,7 @@
+               dns_v4_config:
+               routes:
+               static_config:
+-                address: 172.16.0.12/31
++                address: 172.16.0.2/31
+               type: static
+             mac_address:
+             mtu: 1400
+@@ -210,7 +210,7 @@
+                     xauth_type: none
+                   local_ca_certificate:
+                   local_id: custom
+-                  local_id_custom: cgx-tunnel.6@mycompany.com
++                  local_id_custom: cgx-tunnel.1@mycompany.com
+                   passphrase:
+                   private_key:
+                   remote_ca_certificate:
+@@ -219,9 +219,6 @@
+                   type: psk
+                 ipsec_profile_id: AUTO-PRISMA_IPSEC-Profile
+               peer:
+-                hostname:
+-                ip_addresses:
+-                - 208.127.43.189
+               service_endpoint_id: Prisma France South (france-south)
+               type: ipsec
+             site_wan_interface_ids:
