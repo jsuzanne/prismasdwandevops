@@ -848,3 +848,12 @@ RESPONSE DATA:
         }
     ]
 }
+INFO: 09/23/2022 12:51:40 PM MESSAGE: No Change for Site Paris-DC1.
+INFO: 09/23/2022 12:51:40 PM MESSAGE:  No Change for Waninterface INTERNET-DC1.
+INFO: 09/23/2022 12:51:40 PM MESSAGE:  No Change for Waninterface MPLS-DC1.
+INFO: 09/23/2022 12:51:40 PM MESSAGE:  No Change for Lannetwork default_dc1_803932512.
+INFO: 09/23/2022 12:51:40 PM MESSAGE:  Machine dc985ce1-597c-4b1d-aa7e-0fa26920207b is not CLAIMED, attempting to claim..
+INFO: 09/23/2022 12:51:40 PM MESSAGE:  Checking Machine dc985ce1-597c-4b1d-aa7e-0fa26920207b..
+INFO: 09/23/2022 12:51:41 PM MESSAGE:   Unclaimed(allocated). Beginning Claim process..
+INFO: 09/23/2022 12:51:41 PM MESSAGE:   Machine dc985ce1-597c-4b1d-aa7e-0fa26920207b Offline, waited so far 0 seconds out of 5.
+ERROR: 09/23/2022 12:51:47 PM ERROR: Machine dc985ce1-597c-4b1d-aa7e-0fa26920207b Offline for longer than 5 seconds. Exiting.
