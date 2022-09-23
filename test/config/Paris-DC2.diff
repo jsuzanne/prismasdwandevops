@@ -4,19 +4,29 @@
  ---
  type: cloudgenix template
  version: 1.0
--# Created at 2022-08-07T09:01:49.959000Z
-+# Created at 2022-08-29T22:29:41.592866Z
+-# Created at 2022-08-29T22:29:48.567723Z
++# Created at 2022-09-23T12:50:48.522176Z
  # by system_2372@jeanlouis.prisma.sase
 +# FROM_CLOUDBLADE
  sites v4.5:
    Paris-DC2:
      address:
-@@ -24,7 +25,7 @@
-         - SPOKE
-         cluster_insertion_mode: auto
-         cluster_member_id:
--        connected: false
-+        connected: true
-         deployment_op:
-         description:
-         element_security_zones v2.0: []
+@@ -321,17 +322,7 @@
+                   tag: 0
+                   weight: 0
+               tags:
+-          static v2.0:
+-          - description:
+-            destination_prefix: 0.0.0.0/0
+-            network_context_id:
+-            nexthops:
+-            - admin_distance: 1
+-              nexthop_interface_id:
+-              nexthop_ip: 192.168.201.10
+-              self: false
+-            scope: global
+-            tags:
++          static v2.0: []
+         serial_number: d56cbb88-6d06-4e38-9df8-8edc03c30c92
+         software_version: 5.6.3-b11
+         spoke_ha_config:
